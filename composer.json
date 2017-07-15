@@ -6,6 +6,11 @@
     },
     "require-dev": {
     },
+    "autoload": {
+        "psr-4": {
+          "Feat7\\ApiServer\\":"src/"
+        }
+      },
     "license": "MIT",
     "authors": [
         {

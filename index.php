@@ -5,9 +5,20 @@
 * @author Vinay Khobragade (feat7)
 */
 
+namespace Feat7\ApiServer;
+
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
 
 /**
-* index.php entry point
+* Implement Autoloader.
+* Default Namespace: Feat7/ApiServer
+* Default Working Folder: src
 */
 
-include __DIR__.'/vendor/composer/autoload.php';
+include __DIR__.'/vendor/autoload.php';
+
+$test = new Test();
+
+var_dump($test);
