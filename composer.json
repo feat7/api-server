@@ -1,0 +1,16 @@
+{
+    "name": "feat7/api-server",
+    "description": "Api server boilerplate for apps/websites.",
+    "require": {
+        "illuminate/database": "^5.4"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "feat7",
+            "email": "vinaykhobragade99@gmail.com"
+        }
+    ]
+}
