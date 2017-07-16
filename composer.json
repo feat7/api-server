@@ -2,13 +2,15 @@
     "name": "feat7/api-server",
     "description": "Api server boilerplate for apps/websites.",
     "require": {
-        "illuminate/database": "^5.4"
+        "illuminate/database": "^5.4",
+        "illuminate/events": "^5.4"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-          "Feat7\\ApiServer\\":"src/"
+          "Feat7\\ApiServer\\":"src/",
+          "App\\":"app/"
         }
       },
     "license": "MIT",
